@@ -91,13 +91,13 @@ ___语法规则___
 
 
 
+![]()(./picture/shunxu.png)
 
 
 
 
-
-[tupian][2]
+[tupian][3]
 
 
 [1]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png
-[2]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png
+[3]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png
