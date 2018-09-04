@@ -88,8 +88,16 @@ ___语法规则___
 
 ![][image-1]
 
+2. 先执行初始化对象中的属性，再执行构造方法中的初始化
 
+![][image-2]
 
-
+### Java中final的使用
+final可以修饰类、方法、属性和变量
+- final修饰类，则该类不允许被继承
+- final修饰方法，则该方法不允许被覆盖
+- final修饰属性，则初始化该属性时必须赋值（再类的初始化或在构造方法中赋值）
+- final修饰变量，则该变量只能赋值一次，即变为常量
 
 [image-1]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png "shunxu"
+[image-2]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu2.png
