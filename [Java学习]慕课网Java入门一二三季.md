@@ -91,7 +91,7 @@ ___语法规则___
 
 
 
-![]()(./picture/shunxu.png)
+[what?][2]
 
 
 
@@ -100,4 +100,5 @@ ___语法规则___
 
 
 [1]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png
+[2]:	./picture/shunxu.png
 [3]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png
