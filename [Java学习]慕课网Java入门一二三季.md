@@ -96,7 +96,7 @@ ___语法规则___
 
 
 
-[][2]
+[tupian][2]
 
 
 [1]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png
