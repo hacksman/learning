@@ -85,8 +85,12 @@ ___语法规则___
 
 ### Java中的继承初始化顺序
 1. 先初始化父类再初始化子类对象
-[父类子类初始化顺序][1]
+![xxx]()[1]()
+[1](): [https://raw.githubusercontent.com/hacksman/learning/master/picture/%E7%BB%A7%E6%89%BF%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%BA%E5%BA%8F.png][4]
+
+[父类子类初始化顺序][5]
 
 
 
-[1]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/%E7%BB%A7%E6%89%BF%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%BA%E5%BA%8F.png
+[4]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/%E7%BB%A7%E6%89%BF%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%BA%E5%BA%8F.png
+[5]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/%E7%BB%A7%E6%89%BF%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%BA%E5%BA%8F.png
