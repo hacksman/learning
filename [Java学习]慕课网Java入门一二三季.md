@@ -83,7 +83,7 @@
 ___语法规则___
 - 返回值类型、方法名、参数类型及个数都要与父类继承的方法相同
 
-### Java中的继承初始化顺序
+### 3-4 Java中的继承初始化顺序
 1. 先初始化父类再初始化子类对象
 
 ![][image-1]
@@ -92,12 +92,26 @@ ___语法规则___
 
 ![][image-2]
 
-### Java中final的使用
+### 3-5 Java中final的使用
 final可以修饰类、方法、属性和变量
 - final修饰类，则该类不允许被继承
 - final修饰方法，则该方法不允许被覆盖
 - final修饰属性，则初始化该属性时必须赋值（再类的初始化或在构造方法中赋值）
 - final修饰变量，则该变量只能赋值一次，即变为常量
+
+### 3-7 Java中的super的使用
+- 在对象内部使用，可代表父类对象
+- 子类构造方法执行时，隐式调用了super方法，即调用了父类的构造方法
+- 如果子类的构造方法没有显式调用父类的构造方法，而父类中又没有无参数构造方法，则会编译出错
+
+### 3-8.9 Java中的Object类
+toString方法
+- 默认的toString方法定义在Object对象中，该方法返回对象的地址字符串
+- 可以通过重写toString方法表示出对象的属性
+equals()方法
+- 比较对象的引用是否属于同一块内存地址
+- 可通过重写equals方法比较两对象的属性值是否相等
+
 
 [image-1]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu.png "shunxu"
 [image-2]:	https://raw.githubusercontent.com/hacksman/learning/master/picture/shunxu2.png
