@@ -9,14 +9,18 @@
 
 #### 静态web
 一图解所有👇 
-![web静态]([]https://github.com/hacksman/learning/blob/master/picture/web_stable.png)
+
+![web静态](https://github.com/hacksman/learning/blob/master/picture/web_stable.png)
+
 存在一些问题：
 1. web页面无法动态更新，展示页面所有人都一样
 2. 无法连接数据库，无法与用户进行交互
 
 #### 动态web
 一图解所有 👇
-![web动态]([]https://github.com/hacksman/learning/blob/master/picture/web_dynamic.png)
+
+![web动态](https://github.com/hacksman/learning/blob/master/picture/web_dynamic.png)
+
 如上，动态web主要是与通过用户的操作与数据库进行交互，实现动态展示页面的功能
 
 ## Web服务器
