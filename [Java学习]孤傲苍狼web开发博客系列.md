@@ -1,5 +1,6 @@
 
-## JavaWeb学习总结(一)——JavaWeb开发入门
+# JavaWeb学习总结(一)
+## JavaWeb开发入门
 #### 基本概念
 - web发展：静态web、动态web
 - 静态web开发技术：html
@@ -10,7 +11,7 @@
 #### 静态web
 一图解所有👇 
 
-![web静态](https://github.com/hacksman/learning/blob/master/picture/web_stable.png)
+![web静态][image-1]
 
 存在一些问题：
 1. web页面无法动态更新，展示页面所有人都一样
@@ -19,7 +20,7 @@
 #### 动态web
 一图解所有 👇
 
-![web动态](https://github.com/hacksman/learning/blob/master/picture/web_dynamic.png)
+![web动态][image-2]
 
 如上，动态web主要是与通过用户的操作与数据库进行交互，实现动态展示页面的功能
 
@@ -33,6 +34,11 @@ web服务器是常驻程序，是可以向发出请求的浏览器（客户端�
 - Tomcat
 - IIS
 
+## Tomcat服务器学习和使用(一)
 
+#### 浏览器与服务器交互的过程
+一图解所有 👇
+![](https://github.com/hacksman/learning/blob/master/picture/jiaohu.png)
 
-
+[image-1]:	https://github.com/hacksman/learning/blob/master/picture/web_stable.png
+[image-2]:	https://github.com/hacksman/learning/blob/master/picture/web_dynamic.png
