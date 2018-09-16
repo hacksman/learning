@@ -38,7 +38,19 @@ web服务器是常驻程序，是可以向发出请求的浏览器（客户端�
 
 #### 浏览器与服务器交互的过程
 一图解所有 👇
-![](https://github.com/hacksman/learning/blob/master/picture/jiaohu.png)
+![][image-3]
+
+## Servlet开发(一)
+
+servlet是一个供其他java程序调用的类，它不能独立运行，它的运行依靠servlet引擎来控制和调度，用ide编辑器进行创建时，其内部自带doget和dopost方法，用于对客户端请求所需要响应的内容，同时客户端是通过地址访问web资源，因此每次写完servlet，还需要在web.xml下进行地址的映射配置
+
+## Servlet开发(二)
+
+#### ServletContext
+每次启动web时，会生成一个servletContext，用于web应用中的所有servlet共享数据
+
+
 
 [image-1]:	https://github.com/hacksman/learning/blob/master/picture/web_stable.png
 [image-2]:	https://github.com/hacksman/learning/blob/master/picture/web_dynamic.png
+[image-3]:	https://github.com/hacksman/learning/blob/master/picture/jiaohu.png
