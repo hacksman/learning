@@ -3,7 +3,8 @@
 
 ### 五花八门的链表数据结构
 
-数组需要一块连续的内存空间来存储，对内存的要求较高，链表则相反，它不需要连续的内存空间，它通过“指针“将一组零散的内存块串联起来使用。如下图所示：
+数组需要一块连续的内存空间来存储，对内存的要求较高，链表则相反，它不需要连续的内存空间，它通过“指针“将一组零散的内存块串联起来使用。如下图所示
+
 ![][image-1]
 
 #### 单链表、双向链表和循环链表
@@ -14,5 +15,5 @@
 可以看出，其中头结点和尾结点比较特殊，头结点用来记录链表的基地址。有了它我们便可以遍历得到整个链表。而尾结点不是指向下一个指针，而是指向一个空地址null
 
 
-[image-1]:	https://github.com/hacksman/learning/blob/master/picture/neicunfenbu
-[image-2]:	https://github.com/hacksman/learning/blob/master/picture/danlianbiao
+[image-1]:	https://github.com/hacksman/learning/blob/master/picture/neicunfenbu.jpg
+[image-2]:	https://github.com/hacksman/learning/blob/master/picture/danlianbiao.jpg
