@@ -14,6 +14,34 @@
 
 可以看出，其中头结点和尾结点比较特殊，头结点用来记录链表的基地址。有了它我们便可以遍历得到整个链表。而尾结点不是指向下一个指针，而是指向一个空地址null
 
+与数组一样，链表也支持数据的查找、插入和删除，数组因为需要保证数据的连续性，所以插入和删除数据时，要做大量的搬移工作，时间复杂度为O(n)，而在链表中则不用。因为链表本身的存储空间就不连续。链表的插入删除，我们只需要考虑相邻两个节点指针的变化，所以时间复杂度是O(1)
+
+![][image-3]
+
+链表随机访问的性能就远没有数组好，只能一个个遍历查找，你可以想象成一个队伍，你想找到第几个人，就得一个一个去数。需要O(n)的时间复杂度
+
+__循环链表如图：__
+
+![][image-4]
+
+__双向链表：__
+
+![][image-5]
+
+它支持两个方向，每个节点不止有一个后继指针next，还有一个前驱指针prev指向前面的节点
+
+因为每个节点多存储了一个prev前驱指针，所以，存储同样多的数据，双向链表比单链表占用更多的空间。从结构上看，双向链表支持时间复杂度为O(1)的情况下找到前驱结点，正是因为这个特性，它在给定一个指针的情况下，删除和插入前面的某个结点，时间复杂度就有差距，单链表是O(n)，双向链表则是O(1)
+
+__双向循环链表：__
+
+![][image-6]
+
+### 链表 VS 数组性能大比拼
+
 
 [image-1]:	https://github.com/hacksman/learning/blob/master/picture/neicunfenbu.jpg
 [image-2]:	https://github.com/hacksman/learning/blob/master/picture/danlianbiao.jpg
+[image-3]:	https://github.com/hacksman/learning/blob/master/picture/lianbiaocharushanchu.jpg
+[image-4]:	https://github.com/hacksman/learning/blob/master/picture/xunhuanlianbiao.jpg
+[image-5]:	https://github.com/hacksman/learning/blob/master/picture/shuangxianglianbiao.jpg
+[image-6]:	https://github.com/hacksman/learning/blob/master/picture/shuangxiangxunhuan.jpg
