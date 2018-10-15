@@ -38,6 +38,32 @@ __双向循环链表：__
 
 ### 链表 VS 数组性能大比拼
 
+可以通过前面两节的学习，我们知道，由于数据存储的差异，造成链表和数组在插入、删除和随机访问上，有完全相反的时间复杂度
+
+![][image-7]
+
+当然，在实际的开发过程中，不能仅仅以时间复杂度就选择哪个数据结构。
+
+数组在实现上使用的是连续的内存空间，可以借助CPU的缓存机制，预读取数组中的数据，访问效率更高，但有利就有弊，它一经申明就大小固定，如果申明数组过大，系统可能没有足够空间给它，导致内存不足，如果申明过小，则可能导致数据不够用，那么需要申明一个更大的空间，将现有的数据拷贝进去，非常费时。而链表本身没有大小限制，天然支持动态扩容
+
+除此之外，如果你的代码对内存使用较为苛刻。那数据就更适合了，因为链表会消耗额外的空间用来存储下一个结点的指针，所以内存的消耗会翻倍。而且，对链表进行频繁的插删操作，就会有可能导致频繁的GC(垃圾回收)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [image-1]:	https://github.com/hacksman/learning/blob/master/picture/neicunfenbu.jpg
 [image-2]:	https://github.com/hacksman/learning/blob/master/picture/danlianbiao.jpg
@@ -45,3 +71,4 @@ __双向循环链表：__
 [image-4]:	https://github.com/hacksman/learning/blob/master/picture/xunhuanlianbiao.jpg
 [image-5]:	https://github.com/hacksman/learning/blob/master/picture/shuangxianglianbiao.jpg
 [image-6]:	https://github.com/hacksman/learning/blob/master/picture/shuangxiangxunhuan.jpg
+[image-7]:	https://github.com/hacksman/learning/blob/master/picture/shuzuvslianbiao.jpg
